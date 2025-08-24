@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cape Flats Youth Football Foundation | Contact</title>
+  <meta name="description" content="Get in touch about programmes, volunteering and sponsorships." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Cape Flats Youth Football Foundation</h1>
+    <nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Programmes</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Contact Us</h2>
+      <p><strong>Email:</strong> <em>replace-with-real-email@example.org</em></p>
+      <p><strong>Phone:</strong> <em>replace-with-number</em></p>
+      <p><strong>Training locations:</strong> We train at community fields and school grounds in Mitchells Plain and Khayelitsha. Exact venues are confirmed with teams each week.</p>
+
+      <form id="contactForm" action="/fake-endpoint" method="post" novalidate>
+        <label>Full Name* <input name="name" required></label><br>
+        <label>Email* <input type="email" name="email" required></label><br>
+        <label>Message type*
+          <select name="type" required>
+            <option value="">Select…</option>
+            <option>General</option>
+            <option>Media</option>
+            <option>Partnership</option>
+          </select>
+        </label><br>
+        <label>Message* <textarea name="message" minlength="10" required></textarea></label><br>
+        <button>Send</button>
+      </form>
+      <p id="replyContact" aria-live="polite"></p>
+
+      <div class="card">
+        <h3>Map</h3>
+        <p>In Part 3, you’ll embed a Google Map of a meeting point (e.g., a community hall) or a link to rotating venues.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><small>&copy; 2025 Cape Flats Youth Football Foundation</small></footer>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
